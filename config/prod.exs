@@ -25,8 +25,8 @@ config :chat, Chat.Endpoint,
 # Where those two env variables point to a file on
 # disk for the key and cert.
 
-# Do not print debug messages in production
-config :logger, level: :info
+# Do not print debug or info messages in production
+config :logger, level: :error
 
 # ## Using releases
 #
